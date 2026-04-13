@@ -2,3 +2,5 @@ isPublic: false
 name: Frontend
 scope:
   - 'sites.954a6c0c-c857-4ea0-96ce-bfbe209e21fe:read' # Lungenfachärzte
+  - 'sections.cdb9db72-b772-49cd-a976-88de0d368438:read' # Home
+  - 'nestedentryfields.cfe51714-3791-43e4-82d1-0bf8198689e7:read' # Text

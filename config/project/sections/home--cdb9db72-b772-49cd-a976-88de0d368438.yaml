@@ -9,7 +9,7 @@ name: Home
 previewTargets:
   -
     label: Frontend
-    refresh: '1'
+    refresh: ''
     urlFormat: '{url}'
 propagationMethod: all
 siteSettings:

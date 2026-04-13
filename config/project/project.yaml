@@ -1,4 +1,4 @@
-dateModified: 1776115477
+dateModified: 1776118088
 email:
   fromEmail: urs@21sieben.de
   fromName: lungenfachaerzte
@@ -10,7 +10,13 @@ meta:
     954a6c0c-c857-4ea0-96ce-bfbe209e21fe: Lungenfachärzte # Lungenfachärzte
     a6833496-0d71-4833-9ff8-d429799c32c1: Frontend # Frontend
     cdb9db72-b772-49cd-a976-88de0d368438: Home # Home
+    cfe51714-3791-43e4-82d1-0bf8198689e7: Text # Text
     d667cc93-38b5-467a-8509-53ba8612b3e3: Lungenfachärzte # Lungenfachärzte
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.0.0.1
 system:
   edition: solo
   live: true
