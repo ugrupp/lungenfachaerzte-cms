@@ -1,0 +1,4 @@
+isPublic: false
+name: Frontend
+scope:
+  - 'sites.954a6c0c-c857-4ea0-96ce-bfbe209e21fe:read' # Lungenfachärzte

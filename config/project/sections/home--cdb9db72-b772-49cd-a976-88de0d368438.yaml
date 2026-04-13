@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 40db9e0c-8672-4e47-bc21-f954fa09ab19 # Home
+handle: home
+maxAuthors: 1
+name: Home
+previewTargets:
+  -
+    label: Frontend
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  954a6c0c-c857-4ea0-96ce-bfbe209e21fe: # Lungenfachärzte
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: __home__
+type: single
