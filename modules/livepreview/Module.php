@@ -81,7 +81,7 @@ class Module extends \yii\base\Module
             // Fall back to '*' if URL parsing fails
         }
 
-        iframe.contentWindow.postMessage('entry:live-preview:updated', targetOrigin);
+        iframe.contentWindow.postMessage('craft:live-preview:update', targetOrigin);
     });
 }());
 JS;
