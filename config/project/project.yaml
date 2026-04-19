@@ -1,22 +1,67 @@
-dateModified: 1776118088
+dateModified: 1776599865
 email:
   fromEmail: urs@21sieben.de
   fromName: lungenfachaerzte
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: true
+    name: Bilder
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: '@web/images'
 meta:
   __names__:
+    3effc824-02d3-4f76-8421-f1c690b6b1c7: SEO # SEO
     19ff7edb-ea90-4673-a411-be80896920f8: 'Public Schema' # Public Schema
     40db9e0c-8672-4e47-bc21-f954fa09ab19: Home # Home
-    954a6c0c-c857-4ea0-96ce-bfbe209e21fe: Lungenfachärzte # Lungenfachärzte
+    47ce6d72-7761-41e0-bbb4-a0609649a858: Bild # Bild
+    954a6c0c-c857-4ea0-96ce-bfbe209e21fe: 'Lungenfachärzte in der Bertoldstrasse' # Lungenfachärzte in der Bertoldstrasse
+    38669334-fedd-4a95-8a89-c37bd467a4d1: '404' # 404
     a6833496-0d71-4833-9ff8-d429799c32c1: Frontend # Frontend
     cdb9db72-b772-49cd-a976-88de0d368438: Home # Home
     cfe51714-3791-43e4-82d1-0bf8198689e7: Text # Text
     d667cc93-38b5-467a-8509-53ba8612b3e3: Lungenfachärzte # Lungenfachärzte
+    f0ce45d1-0845-466f-bfba-3b658bb597c8: Bilder # Bilder
 plugins:
   ckeditor:
     edition: standard
     enabled: true
     schemaVersion: 5.0.0.1
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+    settings:
+      description: ''
+      facebookAppId: ''
+      metaTemplate: ''
+      removeAlternateUrls: ''
+      robots:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ '.xml') }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.env != 'production' %}\r\n\r\n{# Disallow access to everything when NOT in production #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
+      sitemapLimit: '1000'
+      sitemapName: sitemap
+      socialImage: ''
+      title:
+        -
+          __assoc__:
+            -
+              - key
+              - '1'
+            -
+              - locked
+              - '0'
+            -
+              - template
+              - '{title} – {{ siteName }}'
+      twitterHandle: ''
 system:
   edition: solo
   live: true

@@ -1,6 +1,12 @@
 isPublic: false
 name: Frontend
 scope:
-  - 'sites.954a6c0c-c857-4ea0-96ce-bfbe209e21fe:read' # Lungenfachärzte
+  - 'sites.954a6c0c-c857-4ea0-96ce-bfbe209e21fe:read' # Lungenfachärzte in der Bertoldstrasse
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
   - 'sections.cdb9db72-b772-49cd-a976-88de0d368438:read' # Home
   - 'nestedentryfields.cfe51714-3791-43e4-82d1-0bf8198689e7:read' # Text
+  - 'volumes.f0ce45d1-0845-466f-bfba-3b658bb597c8:read' # Bilder
+  - 'globalsets.38669334-fedd-4a95-8a89-c37bd467a4d1:read' # 404
+  - 'directive:transform'

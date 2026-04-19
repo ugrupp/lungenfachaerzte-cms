@@ -52,8 +52,46 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2026-04-18T23:37:21+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8db9e764-d160-4952-97f1-8de17c417be9
+            userCondition: null
+            warning: null
+            width: 100
         name: Inhalt
         uid: f30a411b-bbbf-42a1-b09f-04576af27933
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-19T10:33:32+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 3effc824-02d3-4f76-8421-f1c690b6b1c7 # SEO
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9cd3f276-f6cc-4cd9-8892-922c0a5a8d11
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: bfb15313-b8c3-44d8-8d94-4cfbda633e10
         userCondition: null
     thumbFieldKey: null
 handle: home

@@ -1,0 +1,30 @@
+fieldLayouts:
+  776865a9-5470-4d0a-81ea-1c0ff8729a0a:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-19T11:50:02+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e2220f8e-a06b-4cf8-a086-a43e37899638
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 73d9ba64-2eea-43fe-95e8-3d7484dd95d8
+        userCondition: null
+    thumbFieldKey: null
+handle: errorpage
+name: '404'
+sortOrder: 1

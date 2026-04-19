@@ -3,7 +3,7 @@ enabled: true
 handle: default
 hasUrls: true
 language: de
-name: Lungenfachärzte
+name: 'Lungenfachärzte in der Bertoldstrasse'
 primary: true
 siteGroup: d667cc93-38b5-467a-8509-53ba8612b3e3 # Lungenfachärzte
 sortOrder: 1

@@ -4,6 +4,7 @@
   "require": {
     "craftcms/ckeditor": "^5.4.0",
     "craftcms/cms": "^5.9.20",
+    "ether/seo": "^5.0.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
