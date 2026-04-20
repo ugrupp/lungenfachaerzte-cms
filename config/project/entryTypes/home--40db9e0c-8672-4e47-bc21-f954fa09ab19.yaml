@@ -37,34 +37,92 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2026-04-13T21:37:19+00:00'
-            editCondition: null
+            dateAdded: '2026-04-20T20:34:00+00:00'
             elementCondition: null
-            elementEditCondition: null
-            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
-            handle: null
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 72ff2aa1-c8ed-49df-a59f-1d7516980fcf
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 3c05f413-8c7c-4f82-a256-ab4dd380ded7
             userCondition: null
-            warning: null
-            width: 100
+          -
+            dateAdded: '2026-04-20T20:34:00+00:00'
+            elementCondition: null
+            heading: Hero
+            type: craft\fieldlayoutelements\Heading
+            uid: 64b80823-ff24-49a5-ae25-4e1f79f7e596
+            userCondition: null
           -
             dateAdded: '2026-04-18T23:37:21+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
             fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
-            handle: null
+            handle: heroImage
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 8db9e764-d160-4952-97f1-8de17c417be9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-20T20:34:00+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 5907f1cc-88f9-4a3a-8000-d1817e96543c
+            userCondition: null
+          -
+            dateAdded: '2026-04-20T20:34:00+00:00'
+            elementCondition: null
+            heading: Intro
+            type: craft\fieldlayoutelements\Heading
+            uid: cf63b592-a29b-4dcb-a769-5cea1f7d532d
+            userCondition: null
+          -
+            dateAdded: '2026-04-20T20:34:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: introHead
+            instructions: null
+            label: Head
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a1a82704-a6ea-4d03-b2c4-a97e89de8a3b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-20T20:34:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: introText
+            instructions: null
+            label: Text
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c131d1c-68b3-4a90-841c-73d8200a6b86
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-20T20:34:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: introInfotext
+            instructions: null
+            label: Infotext
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0cbbe8d1-22df-4abe-aa2f-cfa1537916cc
             userCondition: null
             warning: null
             width: 100
