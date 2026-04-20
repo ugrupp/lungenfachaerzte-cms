@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 508ae317-d9e5-4df6-91da-0585028e8ce9 # Team
+handle: team
+maxAuthors: 1
+name: Team
+previewTargets:
+  -
+    label: Frontend
+    refresh: ''
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  954a6c0c-c857-4ea0-96ce-bfbe209e21fe: # Lungenfachärzte in der Bertoldstrasse
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: team
+type: single

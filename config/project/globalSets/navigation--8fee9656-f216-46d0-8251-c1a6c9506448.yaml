@@ -1,30 +1,30 @@
 fieldLayouts:
-  776865a9-5470-4d0a-81ea-1c0ff8729a0a:
+  a006213c-fcbf-4da2-ae54-8ae1c95a5f56:
     cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2026-04-19T11:50:02+00:00'
+            dateAdded: '2026-04-19T19:17:50+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            fieldUid: a106464c-9e4c-4464-9a7d-3890f652ec32 # Navigation-Items
             handle: null
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e2220f8e-a06b-4cf8-a086-a43e37899638
+            uid: 5494f79d-ef6c-4e14-81d7-11f751772375
             userCondition: null
             warning: null
             width: 100
-        name: Inhalt
-        uid: 73d9ba64-2eea-43fe-95e8-3d7484dd95d8
+        name: Navigation
+        uid: 914d0fac-9170-4965-84cb-7df59afb515d
         userCondition: null
     thumbFieldKey: null
-handle: errorpage
-name: '404'
-sortOrder: 2
+handle: navigation
+name: Navigation
+sortOrder: 1

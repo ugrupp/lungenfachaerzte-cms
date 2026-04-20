@@ -1,0 +1,42 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  db246a72-e994-456f-af6d-1d497d9ab00a:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-19T19:17:19+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: be2dbd1e-b57d-4114-a1cc-84afe541c5a7 # Link
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fb6c14b2-f22a-483b-bca9-11343be6adff
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: e96d760d-d7be-40bf-b76d-179e9d1477bc
+        userCondition: null
+    thumbFieldKey: null
+handle: navigationItem
+hasTitleField: false
+icon: link
+name: Navigation-Item
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{linkit.label}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

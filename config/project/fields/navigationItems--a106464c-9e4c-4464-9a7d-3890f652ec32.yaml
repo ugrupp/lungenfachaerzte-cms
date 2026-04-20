@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: navigationItems
+instructions: null
+name: Navigation-Items
+searchable: false
+settings:
+  createButtonLabel: 'Neues Navigation-Item'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 840b6e2a-6e2b-431f-a39a-6c110c3afb21 # Navigation-Item
+        -
+          - group
+          - Allgemein
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

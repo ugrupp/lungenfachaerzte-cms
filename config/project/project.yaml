@@ -1,4 +1,4 @@
-dateModified: 1776599865
+dateModified: 1776636038
 email:
   fromEmail: urs@21sieben.de
   fromName: lungenfachaerzte
@@ -14,12 +14,18 @@ fs:
 meta:
   __names__:
     3effc824-02d3-4f76-8421-f1c690b6b1c7: SEO # SEO
+    8fee9656-f216-46d0-8251-c1a6c9506448: Navigation # Navigation
     19ff7edb-ea90-4673-a411-be80896920f8: 'Public Schema' # Public Schema
     40db9e0c-8672-4e47-bc21-f954fa09ab19: Home # Home
     47ce6d72-7761-41e0-bbb4-a0609649a858: Bild # Bild
+    508ae317-d9e5-4df6-91da-0585028e8ce9: Team # Team
+    840b6e2a-6e2b-431f-a39a-6c110c3afb21: Navigation-Item # Navigation-Item
     954a6c0c-c857-4ea0-96ce-bfbe209e21fe: 'Lungenfachärzte in der Bertoldstrasse' # Lungenfachärzte in der Bertoldstrasse
     38669334-fedd-4a95-8a89-c37bd467a4d1: '404' # 404
+    a106464c-9e4c-4464-9a7d-3890f652ec32: Navigation-Items # Navigation-Items
     a6833496-0d71-4833-9ff8-d429799c32c1: Frontend # Frontend
+    b5cd4cca-965c-425f-904c-62b8809c2a8e: Team # Team
+    be2dbd1e-b57d-4114-a1cc-84afe541c5a7: Link # Link
     cdb9db72-b772-49cd-a976-88de0d368438: Home # Home
     cfe51714-3791-43e4-82d1-0bf8198689e7: Text # Text
     d667cc93-38b5-467a-8509-53ba8612b3e3: Lungenfachärzte # Lungenfachärzte
@@ -48,7 +54,8 @@ plugins:
       robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ '.xml') }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.env != 'production' %}\r\n\r\n{# Disallow access to everything when NOT in production #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
       sitemapLimit: '1000'
       sitemapName: sitemap
-      socialImage: ''
+      socialImage:
+        - '14'
       title:
         -
           __assoc__:
