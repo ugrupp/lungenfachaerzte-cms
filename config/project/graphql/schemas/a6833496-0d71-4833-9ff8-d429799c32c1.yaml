@@ -10,6 +10,7 @@ scope:
   - 'nestedentryfields.cfe51714-3791-43e4-82d1-0bf8198689e7:read' # Text
   - 'nestedentryfields.a106464c-9e4c-4464-9a7d-3890f652ec32:read' # Navigation-Items
   - 'volumes.f0ce45d1-0845-466f-bfba-3b658bb597c8:read' # Bilder
+  - 'globalsets.3b0f2ccc-b2f9-479a-bc58-6e43c8317525:read' # Doctolib-Link
   - 'globalsets.8fee9656-f216-46d0-8251-c1a6c9506448:read' # Navigation
   - 'globalsets.38669334-fedd-4a95-8a89-c37bd467a4d1:read' # 404
   - 'directive:transform'
