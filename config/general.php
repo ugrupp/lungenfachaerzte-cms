@@ -33,4 +33,5 @@ return GeneralConfig::create()
     // Headless mode: Craft only serves the CP, action requests, and static assets.
     // All element routing and Twig template rendering is disabled.
     ->headlessMode()
+    ->cpTrigger(null)
 ;
