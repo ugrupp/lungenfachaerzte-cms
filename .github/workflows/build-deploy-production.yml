@@ -1,0 +1,122 @@
+name: Build and deploy CMS to IONOS
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Install composer dependencies
+    runs-on: ubuntu-latest
+    env:
+      extensions: zip, intl, bcmath, gd
+      ext-cache-key: cache-v1
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup extension cache environment
+        id: extcache
+        uses: shivammathur/cache-extensions@v1
+        with:
+          php-version: "8.4"
+          extensions: ${{ env.extensions }}
+          key: ${{ env.ext-cache-key }}
+
+      - name: Cache extensions
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.extcache.outputs.dir }}
+          key: ${{ steps.extcache.outputs.key }}
+          restore-keys: ${{ steps.extcache.outputs.key }}
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.4"
+          extensions: ${{ env.extensions }}
+          coverage: none
+
+      - name: Resolve composer cache directories
+        id: composer-cache
+        run: echo "files=$(composer config cache-files-dir)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache composer dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.composer-cache.outputs.files }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Install dependencies
+        env:
+          COMPOSER_ALLOW_SUPERUSER: 1
+        run: composer install --no-interaction --prefer-dist --optimize-autoloader
+
+      - name: Package CMS artifact
+        run: |
+          tar -zcpf site.tar.gz \
+            bootstrap.php composer.json composer.lock \
+            config craft modules storage vendor web migrations
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cms-site
+          path: site.tar.gz
+          if-no-files-found: error
+
+  deploy:
+    name: Deploy to production
+    runs-on: ubuntu-latest
+    needs: build
+    environment: production
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: cms-site
+          path: .
+
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add known hosts
+        run: printf '%s\n' "${{ vars.SSH_KNOWN_HOSTS }}" >> ~/.ssh/known_hosts
+
+      - name: Rsync to server
+        env:
+          SSH_USER: ${{ vars.SSH_USER }}
+          SSH_HOST: ${{ vars.SSH_HOST }}
+          ROOT_DIR: ${{ vars.ROOT_DIR }}
+        run: |
+          mkdir -p release
+          tar -zxpf site.tar.gz -C release
+          rsync --verbose -az --delete \
+            --exclude '/.htaccess' \
+            --exclude '/.env' \
+            --exclude '/storage/backups' \
+            --exclude '/storage/composer-backups' \
+            --exclude '/storage/config-backups' \
+            --exclude '/storage/logs' \
+            --exclude '/storage/runtime' \
+            --exclude '/web/images' \
+            release/ "$SSH_USER@$SSH_HOST:$ROOT_DIR/"
+
+      - name: Apply project config and clear caches
+        env:
+          SSH_USER: ${{ vars.SSH_USER }}
+          SSH_HOST: ${{ vars.SSH_HOST }}
+          ROOT_DIR: ${{ vars.ROOT_DIR }}
+        run: ssh "$SSH_USER@$SSH_HOST" "cd $ROOT_DIR && /usr/bin/php8.4 craft up --interactive=0"
