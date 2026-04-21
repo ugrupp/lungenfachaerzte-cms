@@ -39,12 +39,6 @@ fieldLayouts:
           -
             dateAdded: '2026-04-20T20:34:00+00:00'
             elementCondition: null
-            type: craft\fieldlayoutelements\HorizontalRule
-            uid: 3c05f413-8c7c-4f82-a256-ab4dd380ded7
-            userCondition: null
-          -
-            dateAdded: '2026-04-20T20:34:00+00:00'
-            elementCondition: null
             heading: Hero
             type: craft\fieldlayoutelements\Heading
             uid: 64b80823-ff24-49a5-ae25-4e1f79f7e596
@@ -65,12 +59,6 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-          -
-            dateAdded: '2026-04-20T20:34:00+00:00'
-            elementCondition: null
-            type: craft\fieldlayoutelements\HorizontalRule
-            uid: 5907f1cc-88f9-4a3a-8000-d1817e96543c
-            userCondition: null
           -
             dateAdded: '2026-04-20T20:34:00+00:00'
             elementCondition: null

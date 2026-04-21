@@ -5,7 +5,9 @@ scope:
   - 'elements.drafts:read'
   - 'elements.revisions:read'
   - 'elements.inactive:read'
+  - 'sections.7bcad1e4-72d0-4e90-a6f1-35145dfa3fff:read' # Ausstattung
   - 'sections.cdb9db72-b772-49cd-a976-88de0d368438:read' # Home
+  - 'sections.ae658cd3-a629-424a-965e-9da368c2e76e:read' # Schwerpunkte
   - 'sections.b5cd4cca-965c-425f-904c-62b8809c2a8e:read' # Team
   - 'nestedentryfields.cfe51714-3791-43e4-82d1-0bf8198689e7:read' # Text
   - 'nestedentryfields.a106464c-9e4c-4464-9a7d-3890f652ec32:read' # Navigation-Items

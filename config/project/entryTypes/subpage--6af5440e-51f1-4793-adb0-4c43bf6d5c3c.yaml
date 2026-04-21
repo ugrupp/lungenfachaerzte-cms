@@ -1,0 +1,99 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  384f85a0-2c62-4aad-82e9-742bbe8ef687:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-04-21T20:07:51+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 52d200c5-cff2-4caf-a805-8853fd76bc25
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-21T20:12:05+00:00'
+            elementCondition: null
+            heading: Hero
+            type: craft\fieldlayoutelements\Heading
+            uid: 57de3e4e-ac8a-460c-a081-8ff81193aa5a
+            userCondition: null
+          -
+            dateAdded: '2026-04-21T20:12:05+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: heroImage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a91a564b-392b-438d-b89f-1b7138492ee1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: cd77711b-83d1-4045-ad3a-3f0401f29cfd
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-21T20:17:22+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 3effc824-02d3-4f76-8421-f1c690b6b1c7 # SEO
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ce5cdee0-daef-4fc1-8766-609529ffa55d
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 3a4decbd-255d-487a-b888-07343f59657c
+        userCondition: null
+    thumbFieldKey: null
+handle: subpage
+hasTitleField: true
+icon: memo
+name: Subpage
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

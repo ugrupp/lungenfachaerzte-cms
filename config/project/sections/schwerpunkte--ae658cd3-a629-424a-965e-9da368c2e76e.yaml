@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 6af5440e-51f1-4793-adb0-4c43bf6d5c3c # Subpage
+handle: schwerpunkte
+maxAuthors: 1
+name: Schwerpunkte
+previewTargets:
+  -
+    label: Frontend
+    refresh: ''
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  954a6c0c-c857-4ea0-96ce-bfbe209e21fe: # Lungenfachärzte in der Bertoldstrasse
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: schwerpunkte
+type: single
