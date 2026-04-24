@@ -2,8 +2,10 @@ allowLineBreaksInTitles: false
 color: null
 description: null
 fieldLayouts:
-  9c5d890e-98e2-4d15-b6da-ba314fe89af8:
+  70ccc77b-e604-41df-8ae3-fd5f87fc5233:
     cardThumbAlignment: end
+    cardView:
+      - 'layoutElement:d1988985-6cc4-422e-baee-39b5fdc73a83'
     tabs:
       -
         elementCondition: null
@@ -13,13 +15,13 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2026-04-19T21:55:56+00:00'
+            dateAdded: '2026-04-24T22:44:37+00:00'
             disabled: false
             elementCondition: null
             id: null
             inputType: null
             instructions: null
-            label: null
+            label: Zeitraum
             max: null
             min: null
             name: null
@@ -32,58 +34,36 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: d9f438f2-7569-4176-abf8-235eb084cf4a
+            uid: a7bf3838-d144-4f74-9a80-3ad058b894c3
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2026-04-24T22:38:43+00:00'
+            dateAdded: '2026-04-24T22:49:58+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: c4aaedc7-1bf0-4d39-9731-76bd91a97e45 # Teammitglieder
-            handle: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: occupation
             instructions: null
-            label: null
-            required: false
+            label: Tätigkeit
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 56925ab8-4d90-48eb-be59-826e177cadac
+            uid: d1988985-6cc4-422e-baee-39b5fdc73a83
             userCondition: null
             warning: null
             width: 100
         name: Inhalt
-        uid: 8b2740df-4273-473d-b408-992979dd7c3b
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            dateAdded: '2026-04-19T21:59:15+00:00'
-            editCondition: null
-            elementCondition: null
-            elementEditCondition: null
-            fieldUid: 3effc824-02d3-4f76-8421-f1c690b6b1c7 # SEO
-            handle: null
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: e56f20f5-a889-4b28-b1eb-d92ed1b3012d
-            userCondition: null
-            warning: null
-            width: 100
-        name: SEO
-        uid: bfa9fc76-f58a-454a-8b9c-8abce149cad9
+        uid: bb6c8e70-4cad-4540-b399-5a96fe6fbb6a
         userCondition: null
     thumbFieldKey: null
-handle: team
+handle: vitaItem
 hasTitleField: true
-icon: people-group
-name: Team
-showSlugField: true
-showStatusField: true
+icon: circle-small
+name: Station
+showSlugField: false
+showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: null

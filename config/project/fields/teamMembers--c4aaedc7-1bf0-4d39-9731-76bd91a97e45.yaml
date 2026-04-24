@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: teamMembers
+instructions: null
+name: Teammitglieder
+searchable: true
+settings:
+  createButtonLabel: 'Teammitglied hinzufügen'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - cc4cbfb3-ec2c-490a-99d9-26c105b0467d # Teammitglied
+        -
+          - group
+          - Allgemein
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

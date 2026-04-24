@@ -4,11 +4,12 @@ instructions: null
 name: Text
 searchable: true
 settings:
-  advancedLinkFields: null
+  advancedLinkFields:
+    - target
   availableTransforms: ''
   availableVolumes: ''
   characterLimit: null
-  css: null
+  css: ".ck.ck-content mark {\r\n    font-weight: bold;\r\n    background-color: transparent;\r\n    color: inherit;\r\n}"
   cssFile: null
   defaultTransform: null
   defaultUploadLocationSubpath: null
@@ -17,16 +18,32 @@ settings:
   headingLevels:
     - '1'
     - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
   imageEntryTypeUid: null
   imageFieldUid: null
   imageMode: img
   js: null
   jsFile: null
-  options: null
+  options:
+    __assoc__:
+      -
+        - style
+        -
+          __assoc__:
+            -
+              - definitions
+              -
+                -
+                  __assoc__:
+                    -
+                      - classes
+                      -
+                        - mark
+                    -
+                      - element
+                      - mark
+                    -
+                      - name
+                      - Hervorgehoben
   parseEmbeds: false
   purifierConfig: null
   purifyHtml: true
@@ -37,10 +54,22 @@ settings:
     - __ADMINS__
   toolbar:
     - heading
+    - style
     - '|'
     - bold
     - italic
+    - underline
+    - strikethrough
+    - subscript
+    - superscript
+    - '|'
+    - bulletedList
+    - outdent
+    - indent
+    - '|'
     - link
+    - '|'
+    - removeFormat
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none

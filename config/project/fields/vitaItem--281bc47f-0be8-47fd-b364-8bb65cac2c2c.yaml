@@ -1,0 +1,76 @@
+columnSuffix: null
+handle: vitaItem
+instructions: null
+name: Station
+searchable: true
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - f8b88f9b-12ca-4b01-a379-23e85853196f
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Inhalt
+                    1:
+                      - uid
+                      - abc1a384-3313-4fc8-ae83-ecbeb97f17c1
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 50
+                            8:
+                              - dateAdded
+                              - '2026-04-24T22:36:39+00:00'
+                            9:
+                              - uid
+                              - 00f1b42a-0928-4537-89b7-f802b3c6a6c7
+                            12:
+                              - fieldUid
+                              - cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - text2
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 50
+                            8:
+                              - dateAdded
+                              - '2026-04-24T22:36:39+00:00'
+                            9:
+                              - uid
+                              - 1585c665-10cc-4c37-8553-fd18a825237b
+                            12:
+                              - fieldUid
+                              - cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            4:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

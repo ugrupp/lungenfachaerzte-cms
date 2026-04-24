@@ -1,0 +1,120 @@
+allowLineBreaksInTitles: true
+color: null
+description: null
+fieldLayouts:
+  a5cd871c-a2ac-4cad-b32e-f16147c4ebd2:
+    cardThumbAlignment: start
+    cardView:
+      - 'layoutElement:a37c0e1a-9f88-48aa-83cd-42cf6aad5109'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-04-24T22:30:13+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: Name
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 953cf9e0-c31c-413f-876b-7990d3e331f3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T22:58:52+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 9c41e239-affd-4775-8aae-e9cbc79ea3fc # Lightswitch
+            handle: teamMemberPrimary
+            instructions: null
+            label: 'Als primäres Teammitgleid anzeigen'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: be73e530-9e82-4d92-8012-412f4fad4073
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T22:35:17+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a1e7da30-746e-4ab9-9d91-d3c5fcd55edd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T22:35:17+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: description
+            instructions: null
+            label: Beschreibung
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a37c0e1a-9f88-48aa-83cd-42cf6aad5109
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T23:04:41+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 702cd527-81ae-4a4f-947b-a1f33ab9fdc4 # Vita
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ba108a34-36b8-445c-822c-9a3221912b18
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 6f5a5717-9945-4458-be14-87ed765d7b2c
+        userCondition: null
+    thumbFieldKey: 'layoutElement:a1e7da30-746e-4ab9-9d91-d3c5fcd55edd'
+handle: teamMember
+hasTitleField: true
+icon: user
+name: Teammitglied
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

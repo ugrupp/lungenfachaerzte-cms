@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: vita
+instructions: null
+name: Vita
+searchable: true
+settings:
+  createButtonLabel: 'Station hinzufügen'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - c8b4bb11-f28b-460d-b5e5-0e039d208a36 # Station
+        -
+          - group
+          - Allgemein
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -3,7 +3,9 @@ color: null
 description: null
 fieldLayouts:
   384f85a0-2c62-4aad-82e9-742bbe8ef687:
-    cardThumbAlignment: end
+    cardThumbAlignment: start
+    cardView:
+      - 'layoutElement:8108ce13-e855-435f-b7b4-2fad3ba04c8c'
     tabs:
       -
         elementCondition: null
@@ -49,7 +51,7 @@ fieldLayouts:
             elementCondition: null
             elementEditCondition: null
             fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
-            handle: heroImage
+            handle: mainImage
             instructions: null
             label: null
             required: false
@@ -59,6 +61,159 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2026-04-24T22:16:42+00:00'
+            elementCondition: null
+            heading: Inhalt
+            type: craft\fieldlayoutelements\Heading
+            uid: 52ed7b89-d69a-493a-8bcf-513e3d6a468d
+            userCondition: null
+          -
+            dateAdded: '2026-04-24T22:16:42+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: introText
+            instructions: null
+            label: Intro
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8108ce13-e855-435f-b7b4-2fad3ba04c8c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 9c274aa4-5370-4f57-8e8a-0a77f1b0caaf
+            userCondition: null
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b06632bf-a7e5-48f1-a79b-f7b411c724f0
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a2a5f67-1f21-4d6f-8426-9ad3728b35e3
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: image2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: af0ad519-bf9e-4f85-9ef5-208f739205db
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 765726c9-551d-4567-89e5-7b2b3a60edea
+            userCondition: null
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: image3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f24bcd1-041e-498a-947c-4fd3882f8d97
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: text2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 26f694a1-b3bc-4871-b2e6-00032a5eac67
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: f7ac02da-3b0b-4f12-8ebb-ed0fd98e60ba
+            userCondition: null
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: image4
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 92427b14-bf86-4d19-8c8f-54798f115f15
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2026-04-24T22:19:28+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: text3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36e2a913-90aa-4be1-8f73-6fb7d8f37eae
+            userCondition: null
+            warning: null
+            width: 50
         name: Inhalt
         uid: cd77711b-83d1-4045-ad3a-3f0401f29cfd
         userCondition: null
@@ -84,7 +239,7 @@ fieldLayouts:
         name: SEO
         uid: 3a4decbd-255d-487a-b888-07343f59657c
         userCondition: null
-    thumbFieldKey: null
+    thumbFieldKey: 'layoutElement:a91a564b-392b-438d-b89f-1b7138492ee1'
 handle: subpage
 hasTitleField: true
 icon: memo
