@@ -18,6 +18,7 @@ settings:
   headingLevels:
     - '1'
     - '2'
+    - '3'
   imageEntryTypeUid: null
   imageFieldUid: null
   imageMode: img
