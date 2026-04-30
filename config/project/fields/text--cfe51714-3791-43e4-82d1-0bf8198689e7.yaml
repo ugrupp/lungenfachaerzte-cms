@@ -9,7 +9,7 @@ settings:
   availableTransforms: ''
   availableVolumes: ''
   characterLimit: null
-  css: ".ck.ck-content mark {\r\n    font-weight: bold;\r\n    background-color: transparent;\r\n    color: inherit;\r\n}"
+  css: ".ck.ck-content mark {\r\n    font-weight: bold;\r\n    background-color: transparent;\r\n    color: inherit;\r\n}.ck.ck-content span.serif {\r\n    font-weight: bold;\r\n    background-color: transparent;\r\n    color: inherit;\r\n    font-family: serif;\r\n}"
   cssFile: null
   defaultTransform: null
   defaultUploadLocationSubpath: null
@@ -45,6 +45,18 @@ settings:
                     -
                       - name
                       - Hervorgehoben
+                -
+                  __assoc__:
+                    -
+                      - classes
+                      -
+                        - serif
+                    -
+                      - element
+                      - span
+                    -
+                      - name
+                      - Serif
   parseEmbeds: false
   purifierConfig: null
   purifyHtml: true
@@ -68,6 +80,7 @@ settings:
     - outdent
     - indent
     - '|'
+    - insertTable
     - link
     - '|'
     - removeFormat

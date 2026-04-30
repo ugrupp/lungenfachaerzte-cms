@@ -1,4 +1,4 @@
-dateModified: 1777416029
+dateModified: 1777497710
 email:
   fromEmail: urs@21sieben.de
   fromName: lungenfachaerzte
@@ -27,6 +27,7 @@ meta:
     702cd527-81ae-4a4f-947b-a1f33ab9fdc4: Vita # Vita
     840b6e2a-6e2b-431f-a39a-6c110c3afb21: Navigation-Item # Navigation-Item
     954a6c0c-c857-4ea0-96ce-bfbe209e21fe: 'Lungenfachärzte in der Bertoldstrasse' # Lungenfachärzte in der Bertoldstrasse
+    2880b602-3dbf-468c-9803-ef07a9faee99: Kontakt # Kontakt
     38669334-fedd-4a95-8a89-c37bd467a4d1: '404' # 404
     a106464c-9e4c-4464-9a7d-3890f652ec32: Navigation-Items # Navigation-Items
     a6833496-0d71-4833-9ff8-d429799c32c1: Frontend # Frontend

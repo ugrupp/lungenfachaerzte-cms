@@ -1,0 +1,138 @@
+fieldLayouts:
+  865effa6-0a23-4d72-b6b1-15869e314403:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            elementCondition: null
+            heading: Terminvereinbarung
+            type: craft\fieldlayoutelements\Heading
+            uid: 5481cb92-1c80-4e4a-a34d-a1f36ee8602d
+            userCondition: null
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: appointmentText
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ef216f7e-1f65-436b-be42-e18e77f2ba84
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: be2dbd1e-b57d-4114-a1cc-84afe541c5a7 # Link
+            handle: appointmentLink
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fed8621d-d069-45bc-9f32-98a4da88382c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            elementCondition: null
+            heading: Kontakt
+            type: craft\fieldlayoutelements\Heading
+            uid: 34c7b99d-6552-4007-9791-94bc6eee16e3
+            userCondition: null
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: contactText
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 764e191c-6613-4357-aa07-9a77fd04cb77
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            elementCondition: null
+            heading: Sprechzeiten
+            type: craft\fieldlayoutelements\Heading
+            uid: 7be9cae7-02ff-40d0-a03f-25a02d201790
+            userCondition: null
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: opentimes
+            instructions: null
+            label: Sprechzeiten
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1ee03e2b-f214-4d05-ad84-e081e450270b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            elementCondition: null
+            heading: Adresse
+            type: craft\fieldlayoutelements\Heading
+            uid: 5d5709e1-3518-4b0b-bc3c-3d069427b85e
+            userCondition: null
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: address
+            instructions: null
+            label: Adresse
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 88e5234a-cdfd-45de-8719-61febcdde79d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-29T21:15:56+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: be2dbd1e-b57d-4114-a1cc-84afe541c5a7 # Link
+            handle: routeLink
+            instructions: null
+            label: Anfahrtslink
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8e96f1b3-8f0e-45c2-bb6c-c6982acc83bc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 4dbdf7d4-153b-46db-913f-aaf6e0664a13
+        userCondition: null
+    thumbFieldKey: null
+handle: contact
+name: Kontakt
+sortOrder: 3
