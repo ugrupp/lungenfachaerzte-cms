@@ -84,6 +84,7 @@ settings:
     - link
     - '|'
     - removeFormat
+    - sourceEditing
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none
