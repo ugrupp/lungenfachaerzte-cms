@@ -8,7 +8,7 @@ settings:
     - target
     - id
   fullGraphqlData: true
-  maxLength: 255
+  maxLength: 1024
   showLabelField: true
   typeSettings:
     __assoc__:
