@@ -1,3 +1,22 @@
+### compress stuff
+<IfModule mod_deflate.c>
+    AddOutputFilter DEFLATE js css
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+    BrowserMatch ^Mozilla/4 gzip-only-text/html
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+
+### cache stuff
+<IfModule mod_headers.c>
+    # 2592000 = 1 month
+    <FilesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|svg|mp4|mpeg|webp)$">
+        Header set Cache-Control "max-age=2592000, must-revalidate"
+    </FilesMatch>
+</IfModule>
+
+### rewrite stuff
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
