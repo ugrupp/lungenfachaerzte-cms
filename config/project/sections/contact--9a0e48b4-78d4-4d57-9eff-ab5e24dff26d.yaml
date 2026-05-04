@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: abeebaca-8f82-4ea3-bc7e-3c645caeb4c3 # Kontakt
+handle: contact
+maxAuthors: 1
+name: Kontakt
+previewTargets:
+  -
+    label: Frontend
+    refresh: ''
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  954a6c0c-c857-4ea0-96ce-bfbe209e21fe: # Lungenfachärzte in der Bertoldstrasse
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: kontakt
+type: single

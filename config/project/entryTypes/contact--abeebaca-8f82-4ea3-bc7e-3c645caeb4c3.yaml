@@ -1,0 +1,76 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  d6ae2ce8-800a-4b00-8e3b-ab91b975864e:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-05-04T09:15:32+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 5bfe5f83-3d14-43df-b87f-e3522b3016ae
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 02072496-630c-415a-8e6e-685bde1eccb7
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-05-04T09:18:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 3effc824-02d3-4f76-8421-f1c690b6b1c7 # SEO
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 00d3bfb3-b984-464a-9b33-68878008e488
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: a24e820c-35b2-4d02-846c-6ed8881fddae
+        userCondition: null
+    thumbFieldKey: null
+handle: contact
+hasTitleField: true
+icon: envelope
+name: Kontakt
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

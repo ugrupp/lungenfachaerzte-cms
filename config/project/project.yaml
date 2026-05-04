@@ -1,4 +1,4 @@
-dateModified: 1777586299
+dateModified: 1777886640
 email:
   fromEmail: urs@21sieben.de
   fromName: lungenfachaerzte
@@ -18,6 +18,7 @@ meta:
     6af5440e-51f1-4793-adb0-4c43bf6d5c3c: Subpage # Subpage
     7bcad1e4-72d0-4e90-a6f1-35145dfa3fff: Ausstattung # Ausstattung
     8fee9656-f216-46d0-8251-c1a6c9506448: Navigation # Navigation
+    9a0e48b4-78d4-4d57-9eff-ab5e24dff26d: Kontakt # Kontakt
     9c41e239-affd-4775-8aae-e9cbc79ea3fc: Lightswitch # Lightswitch
     19ff7edb-ea90-4673-a411-be80896920f8: 'Public Schema' # Public Schema
     40db9e0c-8672-4e47-bc21-f954fa09ab19: Home # Home
@@ -31,6 +32,7 @@ meta:
     38669334-fedd-4a95-8a89-c37bd467a4d1: '404' # 404
     a106464c-9e4c-4464-9a7d-3890f652ec32: Navigation-Items # Navigation-Items
     a6833496-0d71-4833-9ff8-d429799c32c1: Frontend # Frontend
+    abeebaca-8f82-4ea3-bc7e-3c645caeb4c3: Kontakt # Kontakt
     ae658cd3-a629-424a-965e-9da368c2e76e: Schwerpunkte # Schwerpunkte
     b5cd4cca-965c-425f-904c-62b8809c2a8e: Team # Team
     be2dbd1e-b57d-4114-a1cc-84afe541c5a7: Link # Link
