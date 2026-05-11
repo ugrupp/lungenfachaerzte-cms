@@ -6,8 +6,10 @@
 // Load shared bootstrap
 require dirname(__DIR__) . '/bootstrap.php';
 
-// Every request should be a CP request
-define('CRAFT_CP', $_SERVER['REQUEST_URI'] !== '/api');
+// Every request should be a CP request, except for the API and sitemap.xml
+$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$isSitemap = str_starts_with($uri, '/sitemap') && str_ends_with($uri, '.xml');
+define('CRAFT_CP', $uri !== '/api' && !$isSitemap);
 
 // Load and run Craft
 /** @var craft\web\Application $app */
