@@ -3,7 +3,9 @@ color: null
 description: null
 fieldLayouts:
   c88aa00e-a921-4198-96d9-4dc556fb1053:
-    cardThumbAlignment: end
+    cardThumbAlignment: start
+    cardView:
+      - 'layoutElement:a1a82704-a6ea-4d03-b2c4-a97e89de8a3b'
     tabs:
       -
         elementCondition: null
@@ -139,7 +141,7 @@ fieldLayouts:
         name: SEO
         uid: bfb15313-b8c3-44d8-8d94-4cfbda633e10
         userCondition: null
-    thumbFieldKey: null
+    thumbFieldKey: 'layoutElement:8db9e764-d160-4952-97f1-8de17c417be9'
 handle: home
 hasTitleField: true
 icon: house

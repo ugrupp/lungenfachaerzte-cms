@@ -51,7 +51,7 @@ fieldLayouts:
             elementCondition: null
             elementEditCondition: null
             fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
-            handle: mainImage
+            handle: heroImage
             instructions: null
             label: null
             required: false
@@ -216,6 +216,28 @@ fieldLayouts:
             width: 50
         name: Inhalt
         uid: cd77711b-83d1-4045-ad3a-3f0401f29cfd
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-05-13T20:55:55+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: teaserImage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 041f54ea-15e1-4f17-a9ef-c1d4e790acb1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Teaser
+        uid: 342464bd-5e7d-42b5-ae89-a6b025c4f9e2
         userCondition: null
       -
         elementCondition: null

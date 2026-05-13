@@ -3,7 +3,7 @@ color: null
 description: null
 fieldLayouts:
   9c5d890e-98e2-4d15-b6da-ba314fe89af8:
-    cardThumbAlignment: end
+    cardThumbAlignment: start
     tabs:
       -
         elementCondition: null
@@ -37,25 +37,25 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2026-04-30T21:58:19+00:00'
+            dateAdded: '2026-05-13T20:53:06+00:00'
             elementCondition: null
-            heading: Teaser
+            heading: Hero
             type: craft\fieldlayoutelements\Heading
-            uid: 5067f012-f5c9-4bae-b634-83712e0b10ca
+            uid: ef6a5e27-79de-4823-8b77-2c1b44848ba3
             userCondition: null
           -
-            dateAdded: '2026-04-30T21:58:19+00:00'
+            dateAdded: '2026-05-13T20:53:06+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
-            handle: teaserText
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: heroImage
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: b989b89e-9875-4d40-b247-9b7787cbfa8c
+            uid: 2cd11ad7-0374-4251-8bca-85de00922adc
             userCondition: null
             warning: null
             width: 100
@@ -89,6 +89,44 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2026-05-13T20:53:06+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: teaserImage
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f89dac27-61df-4a7b-913a-7e741536e09e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-30T21:58:19+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: teaserText
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b989b89e-9875-4d40-b247-9b7787cbfa8c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Teaser
+        uid: 07e2c166-4ea8-44f9-baa0-251e42f87482
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
             dateAdded: '2026-04-19T21:59:15+00:00'
             editCondition: null
             elementCondition: null
@@ -107,7 +145,7 @@ fieldLayouts:
         name: SEO
         uid: bfa9fc76-f58a-454a-8b9c-8abce149cad9
         userCondition: null
-    thumbFieldKey: null
+    thumbFieldKey: 'layoutElement:2cd11ad7-0374-4251-8bca-85de00922adc'
 handle: team
 hasTitleField: true
 icon: people-group
