@@ -5,6 +5,7 @@ entryTypes:
     uid: eb83d5d1-d43a-43db-b4ef-3fdfed85a470 # Textseite
 handle: imprint
 maxAuthors: 1
+minAuthors: 1
 name: Impressum
 previewTargets:
   -

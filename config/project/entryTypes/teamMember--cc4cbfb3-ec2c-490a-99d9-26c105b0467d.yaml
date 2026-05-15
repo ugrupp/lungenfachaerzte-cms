@@ -89,7 +89,17 @@ fieldLayouts:
           -
             dateAdded: '2026-04-24T23:04:41+00:00'
             editCondition: null
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: 9c41e239-affd-4775-8aae-e9cbc79ea3fc # Lightswitch
+                  layoutElementUid: be73e530-9e82-4d92-8012-412f4fad4073
+                  uid: d34b2203-1d91-484f-8df1-239aac080c84
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
             elementEditCondition: null
             fieldUid: 702cd527-81ae-4a4f-947b-a1f33ab9fdc4 # Vita
             handle: null

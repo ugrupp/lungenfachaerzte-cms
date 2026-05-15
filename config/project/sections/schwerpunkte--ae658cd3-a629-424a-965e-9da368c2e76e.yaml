@@ -5,6 +5,7 @@ entryTypes:
     uid: 6af5440e-51f1-4793-adb0-4c43bf6d5c3c # Unterseite
 handle: schwerpunkte
 maxAuthors: 1
+minAuthors: 1
 name: Schwerpunkte
 previewTargets:
   -

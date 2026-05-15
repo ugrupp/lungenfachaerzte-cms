@@ -5,6 +5,7 @@ entryTypes:
     uid: 508ae317-d9e5-4df6-91da-0585028e8ce9 # Team
 handle: team
 maxAuthors: 1
+minAuthors: 1
 name: Team
 previewTargets:
   -

@@ -1,4 +1,4 @@
-dateModified: 1778843247
+dateModified: 1778887014
 email:
   fromEmail: urs@21sieben.de
   fromName: lungenfachaerzte
@@ -51,7 +51,7 @@ plugins:
   ckeditor:
     edition: standard
     enabled: true
-    schemaVersion: 5.0.0.1
+    schemaVersion: 5.6.0.0
   seo:
     edition: standard
     enabled: true
@@ -91,7 +91,7 @@ system:
   live: true
   name: 'Lungenfachärzte in der Bertoldstrasse'
   retryDuration: null
-  schemaVersion: 5.9.0.8
+  schemaVersion: 5.10.0.0
   timeZone: Europe/Berlin
 users:
   allowPublicRegistration: false

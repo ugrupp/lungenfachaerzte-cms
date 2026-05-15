@@ -5,6 +5,7 @@ entryTypes:
     uid: abeebaca-8f82-4ea3-bc7e-3c645caeb4c3 # Kontakt
 handle: contact
 maxAuthors: 1
+minAuthors: 1
 name: Kontakt
 previewTargets:
   -
