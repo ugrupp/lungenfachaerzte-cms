@@ -1,8 +1,16 @@
-dateModified: 1778887014
+dateModified: 1778889232
 email:
-  fromEmail: urs@21sieben.de
-  fromName: lungenfachaerzte
-  transportType: craft\mail\transportadapters\Sendmail
+  fromEmail: $MAIL_SYSTEM_FROM_MAIL
+  fromName: $MAIL_SYSTEM_FROM_NAME
+  replyToEmail: $MAIL_SYSTEM_REPLYTO_MAIL
+  template: null
+  transportSettings:
+    host: $SMTP_HOST
+    password: $SMTP_PASSWORD
+    port: $SMTP_PORT
+    useAuthentication: '1'
+    username: $SMTP_USER
+  transportType: craft\mail\transportadapters\Smtp
 fs:
   images:
     hasUrls: true
