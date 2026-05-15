@@ -1,4 +1,4 @@
-dateModified: 1778705857
+dateModified: 1778843247
 email:
   fromEmail: urs@21sieben.de
   fromName: lungenfachaerzte
@@ -15,7 +15,7 @@ meta:
   __names__:
     3b0f2ccc-b2f9-479a-bc58-6e43c8317525: Doctolib-Link # Doctolib-Link
     3effc824-02d3-4f76-8421-f1c690b6b1c7: SEO # SEO
-    6af5440e-51f1-4793-adb0-4c43bf6d5c3c: Subpage # Subpage
+    6af5440e-51f1-4793-adb0-4c43bf6d5c3c: Unterseite # Unterseite
     7bcad1e4-72d0-4e90-a6f1-35145dfa3fff: Ausstattung # Ausstattung
     8fee9656-f216-46d0-8251-c1a6c9506448: Navigation # Navigation
     9a0e48b4-78d4-4d57-9eff-ab5e24dff26d: Kontakt # Kontakt
@@ -35,14 +35,17 @@ meta:
     abeebaca-8f82-4ea3-bc7e-3c645caeb4c3: Kontakt # Kontakt
     ae658cd3-a629-424a-965e-9da368c2e76e: Schwerpunkte # Schwerpunkte
     b5cd4cca-965c-425f-904c-62b8809c2a8e: Team # Team
+    b1626344-7d19-4c44-be65-2387d6d93a3a: Impressum # Impressum
     be2dbd1e-b57d-4114-a1cc-84afe541c5a7: Link # Link
     c4aaedc7-1bf0-4d39-9731-76bd91a97e45: Teammitglieder # Teammitglieder
     c8b4bb11-f28b-460d-b5e5-0e039d208a36: Station # Station
     cc4cbfb3-ec2c-490a-99d9-26c105b0467d: Teammitglied # Teammitglied
     cdb9db72-b772-49cd-a976-88de0d368438: Home # Home
     cfe51714-3791-43e4-82d1-0bf8198689e7: Text # Text
+    d423f9a7-8ecf-4afa-b859-af0c55ddf06e: Datenschutz # Datenschutz
     d667cc93-38b5-467a-8509-53ba8612b3e3: Lungenfachärzte # Lungenfachärzte
     dd09a817-570c-4582-8e00-6b9d9745eda4: Footer # Footer
+    eb83d5d1-d43a-43db-b4ef-3fdfed85a470: Textseite # Textseite
     f0ce45d1-0845-466f-bfba-3b658bb597c8: Bilder # Bilder
 plugins:
   ckeditor:

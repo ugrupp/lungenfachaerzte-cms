@@ -2,7 +2,7 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 6af5440e-51f1-4793-adb0-4c43bf6d5c3c # Subpage
+    uid: 6af5440e-51f1-4793-adb0-4c43bf6d5c3c # Unterseite
 handle: ausstattung
 maxAuthors: 1
 name: Ausstattung

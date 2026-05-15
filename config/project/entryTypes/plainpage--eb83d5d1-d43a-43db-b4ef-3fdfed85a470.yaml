@@ -1,0 +1,108 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  935aa757-5d36-4e21-983e-e769d1f1aa06:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-05-15T10:50:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e996a2dd-eb59-48c7-9b0d-e612e2b4a301
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-05-15T10:52:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: textPrimary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 298a1aac-4a10-4ab5-bbd2-a829fbc95155
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-05-15T10:55:48+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: textSecondary
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1f6de08a-b6cf-4948-a6c0-0d8d0280afb0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 09178305-8162-44c6-910d-eda3d227bb3c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-05-15T10:52:00+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 3effc824-02d3-4f76-8421-f1c690b6b1c7 # SEO
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fce769af-fe24-485e-8266-e26f5101de76
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 74482f84-4c57-45b2-aa68-2390225af9bb
+        userCondition: null
+    thumbFieldKey: null
+handle: plainpage
+hasTitleField: true
+icon: file-lines
+name: Textseite
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

@@ -5,7 +5,7 @@ name: SEO
 searchable: false
 settings:
   description: ''
-  hideSocial: '1'
+  hideSocial: ''
   robots:
     - ''
     - ''

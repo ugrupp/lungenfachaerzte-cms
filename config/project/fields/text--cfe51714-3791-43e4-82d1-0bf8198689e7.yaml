@@ -19,6 +19,7 @@ settings:
     - '1'
     - '2'
     - '3'
+    - '4'
   imageEntryTypeUid: null
   imageFieldUid: null
   imageMode: img

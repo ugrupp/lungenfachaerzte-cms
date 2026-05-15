@@ -6,7 +6,9 @@ scope:
   - 'elements.revisions:read'
   - 'elements.inactive:read'
   - 'sections.7bcad1e4-72d0-4e90-a6f1-35145dfa3fff:read' # Ausstattung
+  - 'sections.d423f9a7-8ecf-4afa-b859-af0c55ddf06e:read' # Datenschutz
   - 'sections.cdb9db72-b772-49cd-a976-88de0d368438:read' # Home
+  - 'sections.b1626344-7d19-4c44-be65-2387d6d93a3a:read' # Impressum
   - 'sections.9a0e48b4-78d4-4d57-9eff-ab5e24dff26d:read' # Kontakt
   - 'sections.ae658cd3-a629-424a-965e-9da368c2e76e:read' # Schwerpunkte
   - 'sections.b5cd4cca-965c-425f-904c-62b8809c2a8e:read' # Team

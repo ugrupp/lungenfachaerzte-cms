@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 6af5440e-51f1-4793-adb0-4c43bf6d5c3c # Unterseite
-handle: schwerpunkte
+    uid: eb83d5d1-d43a-43db-b4ef-3fdfed85a470 # Textseite
+handle: imprint
 maxAuthors: 1
-name: Schwerpunkte
+name: Impressum
 previewTargets:
   -
     label: Frontend
@@ -17,5 +17,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: schwerpunkte
+    uriFormat: impressum
 type: single
