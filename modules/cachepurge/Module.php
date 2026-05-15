@@ -3,6 +3,7 @@
 namespace modules\cachepurge;
 
 use Craft;
+use craft\elements\Asset;
 use craft\elements\Entry;
 use craft\elements\GlobalSet;
 use craft\events\ModelEvent;
@@ -74,6 +75,38 @@ class Module extends \yii\base\Module
                 $this->queuePurge();
             }
         );
+
+        Event::on(
+            Asset::class,
+            Asset::EVENT_AFTER_SAVE,
+            function (ModelEvent $event) {
+                /** @var Asset $asset */
+                $asset = $event->sender;
+
+                if (!$this->assetIsUsed($asset)) {
+                    return;
+                }
+
+                $this->queuePurge();
+            }
+        );
+
+        Event::on(
+            Asset::class,
+            Asset::EVENT_AFTER_DELETE,
+            function (Event $event) {
+                $this->queuePurge();
+            }
+        );
+    }
+
+    /**
+     * Returns true if the asset is referenced by at least one entry or global set.
+     */
+    private function assetIsUsed(Asset $asset): bool
+    {
+        return Entry::find()->relatedTo($asset)->exists()
+            || GlobalSet::find()->relatedTo($asset)->exists();
     }
 
     /**
