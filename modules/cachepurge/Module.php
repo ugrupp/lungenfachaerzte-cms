@@ -76,8 +76,25 @@ class Module extends \yii\base\Module
         );
     }
 
+    /**
+     * Debounced purge: pushes a delayed job only if one isn't already pending.
+     * Multiple saves within the delay window collapse into a single Netlify API call.
+     */
     private function queuePurge(): void
     {
-        Craft::$app->getQueue()->push(new PurgeNetlifyCacheJob());
+        $cache    = Craft::$app->getCache();
+        $cacheKey = 'cachepurge:netlify:pending';
+        $delay    = 10; // seconds to wait before executing
+
+        if ($cache->exists($cacheKey)) {
+            // A purge job is already queued — nothing to do
+            return;
+        }
+
+        // Reserve the slot; TTL is slightly longer than the delay so the cache
+        // entry is still present when the job starts and can be cleaned up there.
+        $cache->set($cacheKey, true, $delay + 60);
+
+        Craft::$app->getQueue()->delay($delay)->push(new PurgeNetlifyCacheJob());
     }
 }

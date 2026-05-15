@@ -9,6 +9,9 @@ class PurgeNetlifyCacheJob extends BaseJob
 {
     public function execute($queue): void
     {
+        // Clear the debounce flag so future saves can schedule a new purge.
+        Craft::$app->getCache()->delete('cachepurge:netlify:pending');
+
         $siteId = getenv('NETLIFY_SITE_ID');
         $token  = getenv('NETLIFY_PURGE_TOKEN');
 
