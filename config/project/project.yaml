@@ -1,4 +1,4 @@
-dateModified: 1778889232
+dateModified: 1783323827
 email:
   fromEmail: $MAIL_SYSTEM_FROM_MAIL
   fromName: $MAIL_SYSTEM_FROM_NAME
@@ -38,6 +38,7 @@ meta:
     954a6c0c-c857-4ea0-96ce-bfbe209e21fe: 'Lungenfachärzte in der Bertoldstrasse' # Lungenfachärzte in der Bertoldstrasse
     2880b602-3dbf-468c-9803-ef07a9faee99: Kontakt # Kontakt
     38669334-fedd-4a95-8a89-c37bd467a4d1: '404' # 404
+    72039248-dd27-48ca-8812-ed3e3dfef377: Headline # Headline
     a106464c-9e4c-4464-9a7d-3890f652ec32: Navigation-Items # Navigation-Items
     a6833496-0d71-4833-9ff8-d429799c32c1: Frontend # Frontend
     abeebaca-8f82-4ea3-bc7e-3c645caeb4c3: Kontakt # Kontakt

@@ -67,6 +67,22 @@ fieldLayouts:
             uid: 5b333aa0-f414-42f8-b565-763b833004a9
             userCondition: null
           -
+            dateAdded: '2026-07-06T07:41:47+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 72039248-dd27-48ca-8812-ed3e3dfef377 # Headline
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 68e05b9c-5825-40c3-9da7-2a5edecaf414
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2026-04-24T22:38:43+00:00'
             editCondition: null
             elementCondition: null
