@@ -1,0 +1,22 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 04033e0b-8953-4a59-9fba-50c54aece47f # Informationen
+handle: infos
+maxAuthors: 1
+minAuthors: 1
+name: 'Informationen für Patient*innen'
+previewTargets:
+  -
+    label: Frontend
+    refresh: ''
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  954a6c0c-c857-4ea0-96ce-bfbe209e21fe: # Lungenfachärzte in der Bertoldstrasse
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: fuer-patientinnen
+type: single

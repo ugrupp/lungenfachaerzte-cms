@@ -112,6 +112,7 @@ jobs:
             --exclude '/storage/logs' \
             --exclude '/storage/runtime' \
             --exclude '/web/images' \
+            --exclude '/web/files' \
             release/ "$SSH_USER@$SSH_HOST:$ROOT_DIR/"
 
       - name: Apply project config and clear caches

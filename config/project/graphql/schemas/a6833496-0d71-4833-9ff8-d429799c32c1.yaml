@@ -9,14 +9,17 @@ scope:
   - 'sections.d423f9a7-8ecf-4afa-b859-af0c55ddf06e:read' # Datenschutz
   - 'sections.cdb9db72-b772-49cd-a976-88de0d368438:read' # Home
   - 'sections.b1626344-7d19-4c44-be65-2387d6d93a3a:read' # Impressum
+  - 'sections.1b0625fc-1def-4820-9549-4bfbffc8aa0d:read' # Informationen für Patient*innen
   - 'sections.9a0e48b4-78d4-4d57-9eff-ab5e24dff26d:read' # Kontakt
   - 'sections.ae658cd3-a629-424a-965e-9da368c2e76e:read' # Schwerpunkte
   - 'sections.b5cd4cca-965c-425f-904c-62b8809c2a8e:read' # Team
   - 'nestedentryfields.cfe51714-3791-43e4-82d1-0bf8198689e7:read' # Text
+  - 'nestedentryfields.04c66b2f-3428-44cc-a1de-06d9539e7181:read' # Accordion
   - 'nestedentryfields.a106464c-9e4c-4464-9a7d-3890f652ec32:read' # Navigation-Items
   - 'nestedentryfields.c4aaedc7-1bf0-4d39-9731-76bd91a97e45:read' # Teammitglieder
   - 'nestedentryfields.702cd527-81ae-4a4f-947b-a1f33ab9fdc4:read' # Vita
   - 'volumes.f0ce45d1-0845-466f-bfba-3b658bb597c8:read' # Bilder
+  - 'volumes.90d2531c-9d53-43e2-b50a-72d5a77e5c94:read' # Dateien
   - 'globalsets.3b0f2ccc-b2f9-479a-bc58-6e43c8317525:read' # Doctolib-Link
   - 'globalsets.8fee9656-f216-46d0-8251-c1a6c9506448:read' # Navigation
   - 'globalsets.2880b602-3dbf-468c-9803-ef07a9faee99:read' # Kontakt

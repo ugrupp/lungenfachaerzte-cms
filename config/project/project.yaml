@@ -1,4 +1,4 @@
-dateModified: 1783337892
+dateModified: 1783461163
 email:
   fromEmail: $MAIL_SYSTEM_FROM_MAIL
   fromName: $MAIL_SYSTEM_FROM_NAME
@@ -12,6 +12,13 @@ email:
     username: $SMTP_USER
   transportType: craft\mail\transportadapters\Smtp
 fs:
+  files:
+    hasUrls: true
+    name: Dateien
+    settings:
+      path: '@webroot/files'
+    type: craft\fs\Local
+    url: '@web/files'
   images:
     hasUrls: true
     name: Bilder
@@ -21,9 +28,12 @@ fs:
     url: '@web/images'
 meta:
   __names__:
+    0fbdc2b5-f2a2-4dcc-a33a-78ec4842598c: Dateien # Dateien
+    1b0625fc-1def-4820-9549-4bfbffc8aa0d: 'Informationen für Patient*innen' # Informationen für Patient*innen
     2fcf31e7-756a-4bfe-9d0f-c2957d609d32: Kategorie # Kategorie
     3b0f2ccc-b2f9-479a-bc58-6e43c8317525: Doctolib-Link # Doctolib-Link
     3effc824-02d3-4f76-8421-f1c690b6b1c7: SEO # SEO
+    04c66b2f-3428-44cc-a1de-06d9539e7181: Accordion # Accordion
     6af5440e-51f1-4793-adb0-4c43bf6d5c3c: Unterseite # Unterseite
     7bcad1e4-72d0-4e90-a6f1-35145dfa3fff: Ausstattung # Ausstattung
     8fee9656-f216-46d0-8251-c1a6c9506448: Navigation # Navigation
@@ -32,16 +42,19 @@ meta:
     19ff7edb-ea90-4673-a411-be80896920f8: 'Public Schema' # Public Schema
     40db9e0c-8672-4e47-bc21-f954fa09ab19: Home # Home
     47ce6d72-7761-41e0-bbb4-a0609649a858: Bild # Bild
+    90d2531c-9d53-43e2-b50a-72d5a77e5c94: Dateien # Dateien
     281bc47f-0be8-47fd-b364-8bb65cac2c2c: Station # Station
     508ae317-d9e5-4df6-91da-0585028e8ce9: Team # Team
     702cd527-81ae-4a4f-947b-a1f33ab9fdc4: Vita # Vita
     840b6e2a-6e2b-431f-a39a-6c110c3afb21: Navigation-Item # Navigation-Item
     954a6c0c-c857-4ea0-96ce-bfbe209e21fe: 'Lungenfachärzte in der Bertoldstrasse' # Lungenfachärzte in der Bertoldstrasse
     2880b602-3dbf-468c-9803-ef07a9faee99: Kontakt # Kontakt
+    04033e0b-8953-4a59-9fba-50c54aece47f: Informationen # Informationen
     38669334-fedd-4a95-8a89-c37bd467a4d1: '404' # 404
     72039248-dd27-48ca-8812-ed3e3dfef377: Headline # Headline
     a106464c-9e4c-4464-9a7d-3890f652ec32: Navigation-Items # Navigation-Items
     a6833496-0d71-4833-9ff8-d429799c32c1: Frontend # Frontend
+    aa449cfa-c87c-4e01-a474-0f7da9d971b1: Accordion-Item # Accordion-Item
     abeebaca-8f82-4ea3-bc7e-3c645caeb4c3: Kontakt # Kontakt
     ae658cd3-a629-424a-965e-9da368c2e76e: Schwerpunkte # Schwerpunkte
     b5cd4cca-965c-425f-904c-62b8809c2a8e: Team # Team

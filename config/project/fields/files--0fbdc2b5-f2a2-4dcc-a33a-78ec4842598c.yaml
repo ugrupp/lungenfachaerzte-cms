@@ -1,20 +1,25 @@
 columnSuffix: null
-handle: image
+handle: files
 instructions: null
-name: Bild
+name: Dateien
 searchable: false
 settings:
   allowSelfRelations: false
   allowSubfolders: false
   allowUploads: true
   allowedKinds:
-    - image
+    - excel
+    - compressed
+    - pdf
+    - powerpoint
+    - text
+    - word
   branchLimit: null
   defaultPlacement: end
-  defaultUploadLocationSource: 'volume:f0ce45d1-0845-466f-bfba-3b658bb597c8' # Bilder
+  defaultUploadLocationSource: 'volume:90d2531c-9d53-43e2-b50a-72d5a77e5c94' # Dateien
   defaultUploadLocationSubpath: null
   maintainHierarchy: false
-  maxRelations: 1
+  maxRelations: null
   minRelations: null
   previewMode: full
   restrictFiles: true
@@ -22,13 +27,13 @@ settings:
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:f0ce45d1-0845-466f-bfba-3b658bb597c8' # Bilder
   restrictedLocationSubpath: null
-  selectionLabel: 'Bild hinzufügen'
+  selectionLabel: null
   showSearchInput: true
-  showSiteMenu: true
+  showSiteMenu: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources:
-    - 'volume:f0ce45d1-0845-466f-bfba-3b658bb597c8' # Bilder
+    - 'volume:90d2531c-9d53-43e2-b50a-72d5a77e5c94' # Dateien
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list
