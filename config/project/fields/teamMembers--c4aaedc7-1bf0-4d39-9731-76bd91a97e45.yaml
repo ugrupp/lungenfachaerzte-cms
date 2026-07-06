@@ -4,10 +4,18 @@ instructions: null
 name: Teammitglieder
 searchable: true
 settings:
-  createButtonLabel: 'Teammitglied hinzufügen'
+  createButtonLabel: Hinzufügen
   defaultIndexViewMode: cards
   enableVersioning: false
   entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 2fcf31e7-756a-4bfe-9d0f-c2957d609d32 # Kategorie
+        -
+          - group
+          - Allgemein
     -
       __assoc__:
         -

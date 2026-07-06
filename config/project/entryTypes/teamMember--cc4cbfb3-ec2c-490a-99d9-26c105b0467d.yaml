@@ -39,22 +39,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2026-04-24T22:58:52+00:00'
-            editCondition: null
-            elementCondition: null
-            elementEditCondition: null
-            fieldUid: 9c41e239-affd-4775-8aae-e9cbc79ea3fc # Lightswitch
-            handle: teamMemberPrimary
-            instructions: null
-            label: 'Als primäres Teammitgleid anzeigen'
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: be73e530-9e82-4d92-8012-412f4fad4073
-            userCondition: null
-            warning: null
-            width: 100
-          -
             dateAdded: '2026-04-24T22:35:17+00:00'
             editCondition: null
             elementCondition: null
@@ -89,17 +73,7 @@ fieldLayouts:
           -
             dateAdded: '2026-04-24T23:04:41+00:00'
             editCondition: null
-            elementCondition:
-              class: craft\elements\conditions\entries\EntryCondition
-              conditionRules:
-                -
-                  class: craft\fields\conditions\LightswitchFieldConditionRule
-                  fieldUid: 9c41e239-affd-4775-8aae-e9cbc79ea3fc # Lightswitch
-                  layoutElementUid: be73e530-9e82-4d92-8012-412f4fad4073
-                  uid: d34b2203-1d91-484f-8df1-239aac080c84
-                  value: true
-              elementType: craft\elements\Entry
-              fieldContext: global
+            elementCondition: null
             elementEditCondition: null
             fieldUid: 702cd527-81ae-4a4f-947b-a1f33ab9fdc4 # Vita
             handle: null
@@ -109,6 +83,22 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: ba108a34-36b8-445c-822c-9a3221912b18
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-06T07:55:22+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: be2dbd1e-b57d-4114-a1cc-84afe541c5a7 # Link
+            handle: appointmentLink
+            instructions: null
+            label: Terminbuchung
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dd78d8a1-571b-4e96-8502-909aa626c455
             userCondition: null
             warning: null
             width: 100

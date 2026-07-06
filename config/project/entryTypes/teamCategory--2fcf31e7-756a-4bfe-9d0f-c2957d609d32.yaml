@@ -1,0 +1,70 @@
+allowLineBreaksInTitles: false
+color: teal
+description: null
+fieldLayouts:
+  ac76025e-6ed3-4e17-baa3-3a764282aada:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-07-06T11:23:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: fd7e0202-7ecb-4935-b29d-ab6ca4e956dd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-06T11:37:39+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 9c41e239-affd-4775-8aae-e9cbc79ea3fc # Lightswitch
+            handle: teamCategoryPrimary
+            instructions: null
+            label: 'Ausführliche Darstellung der Teammitglieder'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6a9cc5c4-c261-4091-994b-2eb2147a8863
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 33ba2aaf-491f-4fad-b85d-93de5281991b
+        userCondition: null
+    thumbFieldKey: null
+handle: teamCategory
+hasTitleField: true
+icon: people-group
+name: Kategorie
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

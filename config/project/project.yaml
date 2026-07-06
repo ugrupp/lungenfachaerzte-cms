@@ -1,4 +1,4 @@
-dateModified: 1783323827
+dateModified: 1783337892
 email:
   fromEmail: $MAIL_SYSTEM_FROM_MAIL
   fromName: $MAIL_SYSTEM_FROM_NAME
@@ -21,6 +21,7 @@ fs:
     url: '@web/images'
 meta:
   __names__:
+    2fcf31e7-756a-4bfe-9d0f-c2957d609d32: Kategorie # Kategorie
     3b0f2ccc-b2f9-479a-bc58-6e43c8317525: Doctolib-Link # Doctolib-Link
     3effc824-02d3-4f76-8421-f1c690b6b1c7: SEO # SEO
     6af5440e-51f1-4793-adb0-4c43bf6d5c3c: Unterseite # Unterseite
