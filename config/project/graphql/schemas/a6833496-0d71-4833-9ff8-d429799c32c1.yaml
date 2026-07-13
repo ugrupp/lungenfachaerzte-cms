@@ -5,7 +5,7 @@ scope:
   - 'elements.drafts:read'
   - 'elements.revisions:read'
   - 'elements.inactive:read'
-  - 'sections.7bcad1e4-72d0-4e90-a6f1-35145dfa3fff:read' # Ausstattung
+  - 'sections.7bcad1e4-72d0-4e90-a6f1-35145dfa3fff:read'
   - 'sections.d423f9a7-8ecf-4afa-b859-af0c55ddf06e:read' # Datenschutz
   - 'sections.cdb9db72-b772-49cd-a976-88de0d368438:read' # Home
   - 'sections.b1626344-7d19-4c44-be65-2387d6d93a3a:read' # Impressum

@@ -64,7 +64,7 @@ fieldLayouts:
           -
             dateAdded: '2026-04-24T22:16:42+00:00'
             elementCondition: null
-            heading: Inhalt
+            heading: Schwerpunkte
             type: craft\fieldlayoutelements\Heading
             uid: 52ed7b89-d69a-493a-8bcf-513e3d6a468d
             userCondition: null
@@ -104,24 +104,8 @@ fieldLayouts:
             dateAdded: '2026-04-24T22:19:28+00:00'
             elementCondition: null
             type: craft\fieldlayoutelements\HorizontalRule
-            uid: 9c274aa4-5370-4f57-8e8a-0a77f1b0caaf
+            uid: 765726c9-551d-4567-89e5-7b2b3a60edea
             userCondition: null
-          -
-            dateAdded: '2026-04-24T22:19:28+00:00'
-            editCondition: null
-            elementCondition: null
-            elementEditCondition: null
-            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
-            handle: null
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: b06632bf-a7e5-48f1-a79b-f7b411c724f0
-            userCondition: null
-            warning: null
-            width: 25
           -
             dateAdded: '2026-04-24T22:19:28+00:00'
             editCondition: null
@@ -137,45 +121,7 @@ fieldLayouts:
             uid: 9a2a5f67-1f21-4d6f-8426-9ad3728b35e3
             userCondition: null
             warning: null
-            width: 50
-          -
-            dateAdded: '2026-04-24T22:19:28+00:00'
-            editCondition: null
-            elementCondition: null
-            elementEditCondition: null
-            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
-            handle: image2
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: af0ad519-bf9e-4f85-9ef5-208f739205db
-            userCondition: null
-            warning: null
-            width: 25
-          -
-            dateAdded: '2026-04-24T22:19:28+00:00'
-            elementCondition: null
-            type: craft\fieldlayoutelements\HorizontalRule
-            uid: 765726c9-551d-4567-89e5-7b2b3a60edea
-            userCondition: null
-          -
-            dateAdded: '2026-04-24T22:19:28+00:00'
-            editCondition: null
-            elementCondition: null
-            elementEditCondition: null
-            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
-            handle: image3
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3f24bcd1-041e-498a-947c-4fd3882f8d97
-            userCondition: null
-            warning: null
-            width: 25
+            width: 100
           -
             dateAdded: '2026-04-24T22:19:28+00:00'
             editCondition: null
@@ -191,29 +137,7 @@ fieldLayouts:
             uid: 26f694a1-b3bc-4871-b2e6-00032a5eac67
             userCondition: null
             warning: null
-            width: 50
-          -
-            dateAdded: '2026-04-24T22:19:28+00:00'
-            elementCondition: null
-            type: craft\fieldlayoutelements\HorizontalRule
-            uid: f7ac02da-3b0b-4f12-8ebb-ed0fd98e60ba
-            userCondition: null
-          -
-            dateAdded: '2026-04-24T22:19:28+00:00'
-            editCondition: null
-            elementCondition: null
-            elementEditCondition: null
-            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
-            handle: image4
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 92427b14-bf86-4d19-8c8f-54798f115f15
-            userCondition: null
-            warning: null
-            width: 25
+            width: 100
           -
             dateAdded: '2026-04-24T22:19:28+00:00'
             editCondition: null
@@ -229,7 +153,62 @@ fieldLayouts:
             uid: 36e2a913-90aa-4be1-8f73-6fb7d8f37eae
             userCondition: null
             warning: null
-            width: 50
+            width: 100
+          -
+            dateAdded: '2026-07-13T14:03:15+00:00'
+            elementCondition: null
+            heading: Ausstattung
+            type: craft\fieldlayoutelements\Heading
+            uid: 1f9a577d-a5b6-4450-8d90-7e8785ade50d
+            userCondition: null
+          -
+            dateAdded: '2026-07-13T14:03:15+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 72039248-dd27-48ca-8812-ed3e3dfef377 # Headline
+            handle: headline2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4af9881d-fff4-4203-ab2e-2ce5602fa26e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-13T14:03:15+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: introText2
+            instructions: null
+            label: Intro
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f869f8fd-4323-48bd-b9c5-c39cee3e2fc6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-13T14:03:15+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: cfe51714-3791-43e4-82d1-0bf8198689e7 # Text
+            handle: text4
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94085b9e-8c6f-46be-804d-7ccaaf312231
+            userCondition: null
+            warning: null
+            width: 100
         name: Inhalt
         uid: cd77711b-83d1-4045-ad3a-3f0401f29cfd
         userCondition: null
@@ -244,11 +223,27 @@ fieldLayouts:
             fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
             handle: teaserImage
             instructions: null
-            label: null
+            label: 'Teaser-Bild Schwerpunkte'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 041f54ea-15e1-4f17-a9ef-c1d4e790acb1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-07-13T20:36:39+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 47ce6d72-7761-41e0-bbb4-a0609649a858 # Bild
+            handle: teaserImage2
+            instructions: null
+            label: 'Teaser-Bild Ausstattung'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b26ed7db-d130-4e11-8496-8e7a2acfbee0
             userCondition: null
             warning: null
             width: 100
@@ -278,10 +273,10 @@ fieldLayouts:
         uid: 3a4decbd-255d-487a-b888-07343f59657c
         userCondition: null
     thumbFieldKey: 'layoutElement:a91a564b-392b-438d-b89f-1b7138492ee1'
-handle: subpage
+handle: schwerpunkte
 hasTitleField: true
-icon: memo
-name: Unterseite
+icon: bullseye-arrow
+name: Schwerpunkte
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

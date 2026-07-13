@@ -1,4 +1,4 @@
-dateModified: 1783461163
+dateModified: 1783974999
 email:
   fromEmail: $MAIL_SYSTEM_FROM_MAIL
   fromName: $MAIL_SYSTEM_FROM_NAME
@@ -34,8 +34,7 @@ meta:
     3b0f2ccc-b2f9-479a-bc58-6e43c8317525: Doctolib-Link # Doctolib-Link
     3effc824-02d3-4f76-8421-f1c690b6b1c7: SEO # SEO
     04c66b2f-3428-44cc-a1de-06d9539e7181: Accordion # Accordion
-    6af5440e-51f1-4793-adb0-4c43bf6d5c3c: Unterseite # Unterseite
-    7bcad1e4-72d0-4e90-a6f1-35145dfa3fff: Ausstattung # Ausstattung
+    6af5440e-51f1-4793-adb0-4c43bf6d5c3c: Schwerpunkte # Schwerpunkte
     8fee9656-f216-46d0-8251-c1a6c9506448: Navigation # Navigation
     9a0e48b4-78d4-4d57-9eff-ab5e24dff26d: Kontakt # Kontakt
     9c41e239-affd-4775-8aae-e9cbc79ea3fc: Lightswitch # Lightswitch
