@@ -39,6 +39,6 @@ class PurgeNetlifyCacheJob extends BaseJob
 
     protected function defaultDescription(): ?string
     {
-        return 'Purge Netlify CDN cache';
+        return 'Frontend wird aktualisiert';
     }
 }
